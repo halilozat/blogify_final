@@ -87,6 +87,15 @@ const App = () => {
             >
               Yeni Yazı
             </Button>
+            <Button
+              color="primary"
+              variant="outlined"
+              startIcon={<PenIcon />}
+              onClick={handleOpen}
+            >
+              Yeni Not
+            </Button>
+
           </Toolbar>
         </AppBar>
         <Grid container className={classes.container}>
